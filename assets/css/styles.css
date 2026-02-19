@@ -350,6 +350,21 @@ h1 {
   font-size: 14px;
 }
 
+/* Kontaktseite: Direktkontakt-Felder (E-Mail, Telefon, Ort) etwas größer */
+.section.contact .meta .row {
+  padding: 16px 14px;
+}
+
+.section.contact .meta .row strong,
+.section.contact .meta .row span {
+  font-size: 16px;
+}
+
+/* Direktkontakt-Karte: Inhalt nach oben, weniger Leerraum zur Überschrift */
+.section.contact .split > .card:last-child {
+  justify-content: flex-start;
+}
+
 .section {
   padding: 26px 0;
 }
@@ -525,6 +540,12 @@ textarea {
 .small {
   color: var(--muted);
   font-size: 13px;
+}
+
+/* Impressum & Datenschutz: Fließtext 2–3 Stufen größer */
+.section.imprint .card .small,
+.section.privacy .card .small {
+  font-size: 18px;
 }
 
 /* Cookie banner */
