@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base href="./" />
+    <meta
+      name="description"
+      content="RACE.S GmbH – Projektanalyse, Projektsteuerung und Organisationsstrukturen für den Mittelstand."
+    />
+    <title>RACE.S GmbH – Projektanalyse, Projektsteuerung & Organisation</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <style>
+      /* Header auf Startseite: komplett inline, damit er immer wie auf den anderen Seiten aussieht (unabhängig vom externen CSS) */
+      body.page-home .site-header {
+        position: sticky; top: 0; z-index: 50;
+        background: #15100b;
+        border-bottom: 1px solid rgba(244, 244, 245, 0.08);
+        min-height: 128px !important;
+      }
+      body.page-home .site-header .container { max-width: 1400px; margin: 0 auto; padding: 0 20px; }
+      body.page-home .site-header .nav {
+        display: flex; align-items: center; justify-content: space-between; gap: 16px;
+        padding: 14px 0 !important;
+        min-height: 100px !important;
+      }
+      body.page-home .site-header .brand { display: inline-flex; align-items: center; gap: 10px; flex-shrink: 0; }
+      body.page-home .site-header .brand-logo {
+        height: 100px !important; width: 250px !important;
+        min-height: 100px !important; min-width: 250px !important;
+        display: block; object-fit: cover; object-position: center; flex-shrink: 0;
+      }
+      body.page-home .site-header .nav-links { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+      body.page-home .site-header .nav-links a {
+        padding: 10px 12px; border-radius: 12px; color: rgba(248, 250, 252, 0.76); font-weight: 600; text-decoration: none;
+      }
+      body.page-home .site-header .nav-links a[aria-current="page"] { color: #15100b; background: #f5eee1; }
+      body.page-home .site-header .nav-cta { display: flex; align-items: center; gap: 10px; }
+      body.page-home .site-header .button {
+        display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+        padding: 11px 14px; border-radius: 14px; border: 1px solid rgba(148, 140, 120, 0.6);
+        background: #f5eee1; font-weight: 700; cursor: pointer; text-decoration: none; color: inherit;
+      }
+      body.page-home .site-header .button.primary { border: 0; color: white; background: linear-gradient(135deg, #111, #404040); }
+    </style>
+  </head>
+  <body class="page-home">
+    <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+    <header class="site-header">
+      <div class="container">
+        <nav class="nav" aria-label="Hauptnavigation" data-nav>
+          <a class="brand" href="index.html">
+            <img
+              src="assets/img/logo-races.png"
+              alt="RACE.S GmbH"
+              class="brand-logo"
+              width="250"
+              height="100"
+              style="width: 250px; height: 100px; min-width: 250px; min-height: 100px;"
+            />
+          </a>
+
+          <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="services.html">Leistungen</a>
+            <a href="about.html">Über uns</a>
+            <a href="references.html">Referenzen</a>
+            <a href="contact.html">Kontakt</a>
+          </div>
+
+          <div class="nav-cta">
+            <a class="button" href="services.html">Leistungen</a>
+            <a class="button primary" href="contact.html">Erstgespräch</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container">
+          <div class="grid hero-grid">
+            <section class="hero-panel">
+              <div>
+                <div class="kicker">RACE.S GmbH</div>
+                <h1>
+                  Projektanalyse, Projektsteuerung &amp;
+                  Organisationsstrukturen für den Mittelstand
+                </h1>
+              </div>
+              <div class="hero-actions">
+                <a class="button primary" href="services.html">Unsere Leistungen</a>
+              </div>
+            </section>
+
+            <section class="hero-copy">
+              <p>
+                Projekte geraten selten aus dem Ruder, weil Menschen sich nicht
+                engagieren. In der Praxis scheitern sie an fehlender Klarheit:
+                unklaren Zielen, verzögerten Entscheidungen oder Strukturen, die
+                nicht mehr zur Realität des Unternehmens passen. Genau an diesen
+                Punkten setzt die Arbeit der RACE.S GmbH an.
+              </p>
+              <p>
+                Wir beraten kleine und mittelständische Unternehmen strategisch und
+                operativ, wenn Projekte und Organisationen an Komplexität
+                verlieren.
+              </p>
+              <p>
+                Unser Fokus liegt nicht auf Finanzen oder klassischen
+                Managementkonzepten, sondern auf der Frage, wie Projekte
+                tatsächlich gesteuert werden und wie Organisationen Umsetzung
+                ermöglichen.
+              </p>
+              <p>Unsere Arbeit zielt auf:</p>
+              <ul>
+                <li>Klarheit über die tatsächliche Lage</li>
+                <li>Entscheidungsfähigkeit auf Managementebene</li>
+                <li>Strukturen, die Projekte tragen statt bremsen</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="grid split">
+            <div class="card pad">
+              <h2>Philosophie</h2>
+              <p>
+                Wir verstehen Beratung als Arbeit an Klarheit. Projekte scheitern
+                selten an mangelndem Willen, sondern an unklaren Strukturen und
+                Entscheidungen.
+              </p>
+              <p>
+                Unsere Arbeit ist geprägt von strukturierter Analyse, direkter
+                Kommunikation und partnerschaftlicher Zusammenarbeit.
+              </p>
+            </div>
+
+            <div class="card pad">
+              <h2>Einladung zum Gespräch</h2>
+              <p>
+                Ein erstes Gespräch schafft oft mehr Klarheit als viele interne
+                Meetings. Kein Pitch. Keine Folien. Ein klares Gespräch.
+              </p>
+              <div class="hero-actions">
+                <a class="button primary" href="contact.html"
+                  >Erstgespräch anfragen</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="brand">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <span>RACE.S GmbH</span>
+            </div>
+            <p class="small">
+              Projektanalyse, Projektsteuerung &amp; Organisationsstrukturen für
+              den Mittelstand.
+            </p>
+            <p class="small">© <span data-year></span> RACE.S GmbH</p>
+          </div>
+
+          <div>
+            <div class="footer-links">
+              <a href="contact.html">Kontakt</a>
+              <a href="imprint.html">Impressum</a>
+              <a href="privacy.html">Datenschutz</a>
+            </div>
+            <p class="small">
+              Keine externen Tracker. Optionales Einbinden externer Inhalte nur
+              nach Einwilligung.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="cookie cookie" data-cookie-banner data-open="false" role="dialog" aria-modal="true" aria-label="Cookie-Einstellungen">
+      <div class="card pad">
+        <h2>Cookies & Einwilligung</h2>
+        <p>
+          Wir verwenden nur technisch notwendige Speicherungen, um Ihre Auswahl zu merken.
+          Optionale Inhalte (z. B. externe Einbettungen) werden nur nach Einwilligung geladen.
+        </p>
+        <div class="cookie-actions">
+          <button class="button" type="button" data-consent-action="essential">
+            Nur notwendig
+          </button>
+          <button class="button primary" type="button" data-consent-action="all">
+            Alle akzeptieren
+          </button>
+          <a class="button" href="privacy.html" data-consent-action="open-privacy"
+            >Mehr erfahren</a
+          >
+        </div>
+        <div class="cookie-note">
+          <span class="small muted">
+            Sie können Ihre Auswahl jederzeit durch Löschen des Browser-Speichers zurücksetzen.
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+    <script>
+      document.querySelectorAll("[data-year]").forEach((el) => {
+        el.textContent = String(new Date().getFullYear());
+      });
+    </script>
+  </body>
+</html>
+

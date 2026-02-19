@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Kontakt zur RACE.S GmbH – ein erstes Gespräch schafft Klarheit über Projekte und Organisationsstrukturen."
+    />
+    <title>Kontakt | RACE.S GmbH</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+    <header class="site-header">
+      <div class="container">
+        <nav class="nav" aria-label="Hauptnavigation" data-nav>
+          <a class="brand" href="index.html">
+            <img
+              src="assets/img/logo-races.png"
+              alt="RACE.S GmbH"
+              class="brand-logo"
+            />
+          </a>
+
+          <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="services.html">Leistungen</a>
+            <a href="about.html">Über uns</a>
+            <a href="references.html">Referenzen</a>
+            <a href="contact.html">Kontakt</a>
+          </div>
+
+          <div class="nav-cta">
+            <a class="button" href="services.html">Leistungen</a>
+            <a class="button primary" href="contact.html">Erstgespräch</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container">
+          <div class="kicker">Kontakt</div>
+          <h1>Erstgespräch anfragen</h1>
+          <p class="lead">
+            Ein erstes Gespräch schafft oft mehr Klarheit als viele interne
+            Meetings. Kein Pitch. Keine Folien. Ein klares Gespräch.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="grid split">
+            <div class="card pad">
+              <h2>Kontaktformular</h2>
+              <p class="small">
+                Hinweis: Als statische Website öffnet das Formular standardmäßig
+                dein E‑Mail-Programm („mailto“). Wenn du lieber eine echte
+                Formular-Übermittlung willst (z. B. Formspree/Netlify), bauen wir
+                das danach ein.
+              </p>
+
+              <div class="alert" data-contact-status aria-live="polite">
+                Felder ausfüllen und absenden.
+              </div>
+
+              <form
+                class="grid"
+                style="margin-top: 12px"
+                data-contact-form
+                data-contact-to="hello@example.com"
+              >
+                <div class="form-grid">
+                  <div>
+                    <label for="name">Name *</label>
+                    <input
+                      id="name"
+                      name="name"
+                      type="text"
+                      autocomplete="name"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label for="email">E-Mail *</label>
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      autocomplete="email"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="form-grid">
+                  <div>
+                    <label for="phone">Telefon</label>
+                    <input
+                      id="phone"
+                      name="phone"
+                      type="tel"
+                      autocomplete="tel"
+                      inputmode="tel"
+                    />
+                  </div>
+                  <div>
+                    <label for="topic">Thema</label>
+                    <select id="topic" name="topic">
+                      <option value="">Bitte auswählen…</option>
+                      <option>Strategie & Positionierung</option>
+                      <option>Prozesse & Effizienz</option>
+                      <option>Organisation & Führung</option>
+                      <option>Sonstiges</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div>
+                  <label for="message">Nachricht *</label>
+                  <textarea id="message" name="message" required></textarea>
+                  <div class="help">
+                    Bitte keine sensiblen Daten senden. Details klären wir
+                    vertraulich im Gespräch.
+                  </div>
+                </div>
+
+                <div class="hero-actions">
+                  <button class="button primary" type="submit">Absenden</button>
+                  <a class="button" href="privacy.html">Datenschutz</a>
+                </div>
+              </form>
+            </div>
+
+            <aside class="card pad">
+              <h2>Direktkontakt</h2>
+              <p class="small">
+                Diese Angaben ersetzen wir gleich mit euren echten Kontaktdaten.
+              </p>
+              <div class="meta">
+                <div class="row">
+                  <div>
+                    <strong>E-Mail</strong>
+                    <span>hello@example.com</span>
+                  </div>
+                  <span class="pill">schnell</span>
+                </div>
+                <div class="row">
+                  <div>
+                    <strong>Telefon</strong>
+                    <span>+49 …</span>
+                  </div>
+                  <span class="pill">optional</span>
+                </div>
+                <div class="row">
+                  <div>
+                    <strong>Ort</strong>
+                    <span>[Stadt/Region]</span>
+                  </div>
+                  <span class="pill">DACH</span>
+                </div>
+              </div>
+              <p class="small" style="margin-top: 12px">
+                Zeitfenster: Mo–Fr 9–17 Uhr (Beispiel).
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="brand">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <span>RACE.S GmbH</span>
+            </div>
+            <p class="small">
+              Projektanalyse, Projektsteuerung &amp; Organisationsstrukturen für
+              den Mittelstand.
+            </p>
+            <p class="small">© <span data-year></span> RACE.S GmbH</p>
+          </div>
+
+          <div>
+            <div class="footer-links">
+              <a href="contact.html">Kontakt</a>
+              <a href="imprint.html">Impressum</a>
+              <a href="privacy.html">Datenschutz</a>
+            </div>
+            <p class="small">
+              Keine externen Tracker. Optionales Einbinden externer Inhalte nur
+              nach Einwilligung.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="cookie" data-cookie-banner data-open="false" role="dialog" aria-modal="true" aria-label="Cookie-Einstellungen">
+      <div class="card pad">
+        <h2>Cookies & Einwilligung</h2>
+        <p>
+          Wir verwenden nur technisch notwendige Speicherungen, um Ihre Auswahl zu merken.
+          Optionale Inhalte (z. B. externe Einbettungen) werden nur nach Einwilligung geladen.
+        </p>
+        <div class="cookie-actions">
+          <button class="button" type="button" data-consent-action="essential">
+            Nur notwendig
+          </button>
+          <button class="button primary" type="button" data-consent-action="all">
+            Alle akzeptieren
+          </button>
+          <a class="button" href="privacy.html" data-consent-action="open-privacy"
+            >Mehr erfahren</a
+          >
+        </div>
+        <div class="cookie-note">
+          <span class="small muted">
+            Sie können Ihre Auswahl jederzeit durch Löschen des Browser-Speichers zurücksetzen.
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+    <script>
+      document.querySelectorAll("[data-year]").forEach((el) => {
+        el.textContent = String(new Date().getFullYear());
+      });
+    </script>
+  </body>
+</html>
+
